@@ -1,0 +1,17 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET         /                          controllers.Application.index
+#GET         /commits                   @controllers.Comments.showAddForm
+#POST        /commits                   @controllers.Comments.add
+#GET         /commitsList               @controllers.Comments.commitsList
+#
+#GET         /commits/:id/remove        @controllers.Comments.remove(id: Int )
+
+
+# Map static resources from the /public folder to the /assets URL path
+GET         /assets/*file              controllers.Assets.at(path="/public", file)
+
+    

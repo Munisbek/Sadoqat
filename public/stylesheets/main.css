@@ -1,0 +1,95 @@
+
+
+
+.navbar {
+    background-color:#4d56a4;
+
+
+    margin-right: -15px;
+    margin-left: -15px;
+
+}
+.carousel-indicators{
+    color:red;
+}
+
+.navbar-brand{
+    color:#ffffff;
+}
+.navbar-brand:hover{
+    background-color:#e6fbf2;
+    color:red;
+}
+.midnight-blue{
+    background-color: #03040a;
+    margin-bottom: -40px;
+}
+
+
+.navbar-nav > li > a {
+    color: #ffffff;
+    font-family: monospace;
+    font-size: 22px;
+}
+
+.navbar-nav > li {
+    text-align: center;
+}
+
+.text-center {
+    font-family: cursive;
+}
+
+.navbar .navbar-nav > li > a:hover {
+    font-size:24px ;
+    color:  red;
+}
+
+.buttons {
+    background-color: #e97951;
+    color: #56cd55;
+    margin-left: 512px;
+    margin-top: 10px;
+}
+
+.col-sm-6 {
+    margin-top: 40px;
+}
+
+
+
+.col-sm-6 > img {
+    margin-left: -30px;
+}
+
+
+.maxi {
+    font-size: 17px;
+}
+.maxi2{
+    margin-right: 6px;
+}
+.li1 {
+    padding-left: 5px ;
+}
+.button1 {
+    background-color: #e77046;
+    color: #ffffff;
+    width: 25%;
+    height: 5%;
+    font-family: cursive;
+    margin-top: 15px;
+
+}
+.button2 {
+    background-color: #a1d178;
+    color: #ffffff;
+    width: 25%;
+    height: 5%;
+    font-family: cursive;
+    margin-top: 15px;
+}
+.img-thumbnails {
+    width: 250px;
+    height: 195px;
+}

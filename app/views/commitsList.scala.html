@@ -1,0 +1,39 @@
+@*@(comments: List[Commit])*@
+
+@*@main() {*@
+
+  @*@navbar("list")*@
+
+  @*<div class="main-bg">*@
+    @*<div class="container">*@
+
+      @*<table class="table table-hover">*@
+        @*<thead>*@
+          @*<tr>*@
+            @*<th>Ism!</th>*@
+
+            @*<th>Mulohaza!</th>*@
+          @*</tr>*@
+        @*</thead>*@
+        @*<tbody>*@
+        @*@for(comment <- comments) {*@
+          @*<tr>*@
+            @*<td>@comment.name</td>*@
+
+            @*<td>@comment.comments</td>*@
+            @*<td>*@
+              @*<a href="@routes.Comments.remove(comment.id.get)">*@
+                @*<i class="glyphicon glyphicon-minus-sign text-danger">  O'chirish</i>*@
+              @*</a>*@
+
+            @*</td>*@
+          @*</tr>*@
+        @*}*@
+        @*</tbody>*@
+      @*</table>*@
+      @*<br><br><br>*@
+    @*@carousel2()*@
+
+    @*</div>*@
+  @*</div>*@
+@*}*@

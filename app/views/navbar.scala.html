@@ -1,0 +1,31 @@
+
+@(activePage: String)
+
+
+<html>
+  <nav class="navbar" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="@routes.Application.index()"><b><i>Matnazar Abdulhakim</i></b></a>
+
+      </div>
+      <div class="navbar-collapse collapse" id="navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="http://kh-davron.uz/tag/matnazar-abdulhakim">Hayoti</a></li>
+          <li><a href="http://kh-davron.uz/kutubxona/uzbek/matnazar-abdulhakim-xorazmcha-sherlar.html">Adib She'rlari</a></li>
+          @*<li><a href="@routes.Comments.showAddForm()">O'z fikringizni qoldiring</a></li>*@
+          @*<li><a href="@routes.Comments.commitsList()">Mulohazalar</a></li>*@
+
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+</html>
